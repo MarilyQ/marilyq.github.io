@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var name;
+        name="Marily";
+
+        console.log("El valor de la variable es: " + name);
+        name=8;
+        var numero1=7; //declaraciones goblales 
+        var numero2=5; //variable local
+        var suma=numero1+numero2;
+        console.log(suma);
+
+        var preferencia="pizza"; //global
+        if (true){
+            let preferencia="tacos"; //local
+            console.log("preferencia local "+preferencia);
+        }
+        console.log("preferencia global "  + preferencia);
+
+        const Pi=3-141564;
+
+        document.write("Este es un ejercicio de declaración de variables");
+    </script>
+</body>
+</html>
